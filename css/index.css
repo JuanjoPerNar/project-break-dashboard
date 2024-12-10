@@ -11,6 +11,15 @@ html, body {
     overflow-x: hidden;
 }
 
+#html, body::-webkit-scrollbar {
+    width: 8px;
+    background-color: #dededec3;
+}
+
+#html, body::-webkit-scrollbar-thumb {
+    background: #747474;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -45,6 +54,7 @@ header h1 {
     font-weight: bold;
     letter-spacing: 2px;
     color: rgb(212, 206, 19);
+    -webkit-text-stroke: 1px #000000;
 }
 
 main {
@@ -223,6 +233,19 @@ main {
     padding: 10px 0 10px 10px;
     width: 100%;
     border: 0.5px solid rgb(212, 206, 19);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#contenedor-prevision::-webkit-scrollbar {
+    height: 10px;
+    background-color: #dededec3;
+    border-radius: 10px;
+}
+
+#contenedor-prevision::-webkit-scrollbar-thumb {
+    background: #747474;
+    border-radius: 4px;
 }
 
 .contenedor-horas {
