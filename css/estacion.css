@@ -1,0 +1,174 @@
+html, body {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #333333c3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header a {
+    position: absolute;
+    left: 10px;    
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(212, 206, 19);
+}
+
+#clima {
+    text-align: center;
+    background-color: #333333c3;
+    padding: 30px 30px 15px 30px;
+    border-radius: 20px;
+    border: 1px solid rgb(212, 206, 19);
+    width: 80%;
+    max-width: 700px;
+    margin: 0 auto;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.505);
+}
+
+#info-clima {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#info-clima h2 {
+    color: rgb(212, 206, 19);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#estado-clima {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+#temp-icono {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+#icono {
+    width: 60px;
+    height: auto;
+}
+
+#temperatura img {
+    width: 30px;
+    height: auto;
+}
+
+#temperatura {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    height: 40px;
+    margin: 0;
+}
+
+#detalles-clima {
+    color: rgba(255, 255, 255, 0.721);
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+}
+
+#prevision {
+    margin-top: 20px;
+}
+
+#prevision h3 {
+    color: rgb(212, 206, 19);
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+#contenedor-prevision {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 10px 0 10px 10px;
+    width: 100%;
+    border: 0.5px solid rgb(212, 206, 19);
+}
+
+.contenedor-horas {
+    background-color: #333;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 80px;
+    min-width: 80px;
+    transition: background-color 0.3s linear;
+}
+
+.contenedor-horas:hover {
+    background-color: #333333c3;
+}
+
+.hora {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.icono-prevision {
+    width: 40px;
+    margin-bottom: 5px;
+}
+
+.temperatura {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(212, 206, 19);
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #333333c3;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer nav a {
+    padding: 0 10px;
+}
+
+
+
+

@@ -1,0 +1,84 @@
+html, body {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #333333c3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header a {
+    position: absolute;
+    left: 10px;    
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(212, 206, 19);
+}
+
+main {
+    text-align: center;
+    background-color: #333333c3;
+    padding: 30px 30px 15px 30px;
+    border-radius: 20px;
+    border: 1px solid rgb(212, 206, 19);
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.505);
+}
+
+#reloj-digital {
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#fecha-digital {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e9e6e6;
+    margin-bottom: 20px;
+}
+
+#mensaje-reloj {
+    font-size: 20px;
+    color: rgb(212, 206, 19);
+    margin: 15px 0 10px 0;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #333333c3;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer nav a {
+    padding: 0 10px;
+}

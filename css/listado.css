@@ -1,0 +1,142 @@
+html, body {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #333333c3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header a {
+    position: absolute;
+    left: 10px;    
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(212, 206, 19);
+}
+
+#listado-links {
+    background-color: #333333c3;
+    border: 1px solid rgb(212, 206, 19);
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+}
+
+#formulario-links {
+    margin-bottom: 20px;
+}
+
+#formulario-links label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+#formulario-links input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 0.5px solid rgb(212, 206, 19);
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+#formulario-links button {
+    width: 97%;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(212, 206, 19);
+    color: #333333c3;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s linear;
+}
+
+#formulario-links button:hover {
+    background-color: rgb(182, 177, 29);
+}
+
+#links-guardados {
+    margin-top: 20px;
+}
+
+#links-guardados h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#lista-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+#lista-links li {
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(212, 206, 19);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+#lista-links a {
+    color: rgb(212, 206, 19);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#lista-links img {
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #333333c3;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer nav a {
+    padding: 0 10px;
+}
