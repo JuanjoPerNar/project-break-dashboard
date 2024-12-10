@@ -38,6 +38,7 @@ header {
     align-items: center;
     padding: 20px 20px;
     margin-left: 40px;
+    border-top: 1px solid black;
 }
 
 header nav {
@@ -360,3 +361,66 @@ main {
     cursor: pointer;
 }
 
+@media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      justify-content: center;
+      padding: 10px;
+      margin-left: 0;
+      background-color: #333333ee;
+    }
+  
+    header h1 {
+      position: static;
+      font-size: 40px;
+      margin: 10px;
+    }
+  
+    header nav {
+      gap: 10px;
+    }
+  
+    main {
+      padding: 10px;
+    }
+  
+    #reloj-principal,
+    #password,
+    #listado-links {
+      width: 70%;
+    }
+
+    #clima {
+        width: 40%;
+    }
+  
+    #temperatura {
+      font-size: 36px;
+      height: auto;
+    }
+  
+    #detalles-clima {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    #contenedor-prevision {
+      gap: 5px;
+    }
+  
+    .contenedor-horas {
+      width: 60px;
+      min-width: 60px;
+    }
+  
+    #formulario-links input,
+    #formulario-links button {
+      width: 90%;
+    }
+  
+    #lista-links li {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  

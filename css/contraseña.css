@@ -24,6 +24,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-top: 1px solid black;
 }
 
 header a {
@@ -126,3 +127,4 @@ footer {
 footer nav a {
     padding: 0 10px;
 }
+
