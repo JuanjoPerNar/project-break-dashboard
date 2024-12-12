@@ -42,9 +42,9 @@ cambioFondo();
 setInterval(cambioFondo, 10000); */
 
 // Ruta base del proyecto en GitHub Pages
-const ruta = "/project-break-dashboard/assets/img/";
+const ruta = "https://juanjopernar.github.io/project-break-dashboard/assets/img/";
 
-// Ruta de las imágenes
+// Lista de imágenes de fondo con rutas absolutas
 const imagenFondo = [
     `${ruta}img1.jpg`,
     `${ruta}img2.jpg`,
@@ -62,19 +62,24 @@ const imagenFondo = [
     `${ruta}img14.jpg`,
 ];
 
-// Función de cambio de fondo
+console.log(imagenFondo);
+
+// Función para cambiar el fondo aleatoriamente
 const cambioFondo = () => {
     const imagenAleatoria = Math.floor(Math.random() * imagenFondo.length);
     const nuevaImagen = imagenFondo[imagenAleatoria];
 
     console.log(`Cambia el fondo a ${nuevaImagen}`);
 
+    // Establecer la imagen seleccionada como fondo
     document.body.style.backgroundImage = `url('${nuevaImagen}')`;
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundRepeat = "no-repeat";
     document.body.style.backgroundPosition = "center";
 };
 
-// Llamar la función de cambio de fondo
+// Llamada a la función de cambio de fondo
 cambioFondo();
+
+// Intervalo para cambiar el fondo cada 10 segundos
 setInterval(cambioFondo, 10000);
