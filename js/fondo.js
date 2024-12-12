@@ -46,20 +46,20 @@ const ruta = "https://juanjopernar.github.io/project-break-dashboard/assets/img/
 
 // Lista de imágenes de fondo con rutas absolutas
 const imagenFondo = [
-    `${ruta}img1.JPG`,
-    `${ruta}img2.JPG`,
-    `${ruta}img3.JPG`,
-    `${ruta}img4.JPG`,
-    `${ruta}img5.JPG`,
-    `${ruta}img6.JPG`,
-    `${ruta}img7.JPG`,
-    `${ruta}img8.JPG`,
-    `${ruta}img9.JPG`,
-    `${ruta}img10.JPG`,
-    `${ruta}img11.JPG`,
-    `${ruta}img12.JPG`,
-    `${ruta}img13.JPG`,
-    `${ruta}img14.JPG`,
+    `${ruta}img1.jpg`,
+    `${ruta}img2.jpg`,
+    `${ruta}img3.jpg`,
+    `${ruta}img4.jpg`,
+    `${ruta}img5.jpg`,
+    `${ruta}img6.jpg`,
+    `${ruta}img7.jpg`,
+    `${ruta}img8.jpg`,
+    `${ruta}img9.jpg`,
+    `${ruta}img10.jpg`,
+    `${ruta}img11.jpg`,
+    `${ruta}img12.jpg`,
+    `${ruta}img13.jpg`,
+    `${ruta}img14.jpg`,
 ];
 
 console.log(imagenFondo);
