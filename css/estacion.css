@@ -123,8 +123,7 @@ header h1 {
     padding: 10px 0 10px 10px;
     width: 100%;
     border: 0.5px solid rgb(212, 206, 19);
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-radius: 5px;
 }
 
 #contenedor-prevision::-webkit-scrollbar {
