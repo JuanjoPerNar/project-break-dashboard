@@ -105,7 +105,7 @@ main {
 
 #password {
     background-color: #333333c3;
-    padding: 30px;
+    padding: 30px 30px 15px 30px;
     border-radius: 20px;
     border: 1px solid rgb(212, 206, 19);
     width: 80%;
@@ -255,11 +255,11 @@ main {
     text-align: center;
     width: 80px;
     min-width: 80px;
-    transition: background-color 0.3s linear;
+    transition: border 0.1s linear;
 }
 
 .contenedor-horas:hover {
-    background-color: #444;
+    border: 0.5px solid rgb(212, 206, 19);
 }
 
 .hora {

@@ -26,8 +26,8 @@ const iniciarReloj = () => {
     const mes = añadirCero(horaActual.getMonth() + 1);
     const año = horaActual.getFullYear();
 
-    console.log("Hora procesada:", horas, minutos, segundos);
-    console.log("Fecha procesada:", dia, mes, año);
+    console.log("Hora:", horas, minutos, segundos);
+    console.log("Fecha:", dia, mes, año);
 
     //Formatear fecha y hora
     const horaFormateada = `${horas}:${minutos}:${segundos}`;
@@ -54,7 +54,7 @@ const iniciarReloj = () => {
         mensaje = 'Buenas noches, es hora de pensar en parar y descansar'
     }
 
-    console.log('Mensaje para esta hora', mensaje);
+    console.log('Mensaje intervalo de horas', mensaje);
     
     //Actualizar DOM
     reloj.textContent = horaFormateada;

@@ -144,11 +144,11 @@ header h1 {
     text-align: center;
     width: 80px;
     min-width: 80px;
-    transition: background-color 0.3s linear;
+    transition: border 0.1s linear;
 }
 
 .contenedor-horas:hover {
-    background-color: #333333c3;
+    border: 0.5px solid rgb(212, 206, 19);
 }
 
 .hora {
